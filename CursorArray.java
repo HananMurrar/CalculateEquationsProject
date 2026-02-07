@@ -1,7 +1,6 @@
 package application;
 
 public class CursorArray<T extends Comparable<T>> {
-
 	Node<T>[] cursorArray;
 
 	public CursorArray(int size) {
@@ -89,5 +88,4 @@ public class CursorArray<T extends Comparable<T>> {
 		s += "NULL";
 		return s;
 	}
-
 }
