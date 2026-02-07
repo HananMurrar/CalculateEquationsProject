@@ -1,7 +1,6 @@
 package application;
 
 public class Node<T extends Comparable<T>> {
-
 	T data;
 	int next;
 
@@ -13,5 +12,4 @@ public class Node<T extends Comparable<T>> {
 	public String toString() {
 		return data + " , " + next;
 	}
-
 }
