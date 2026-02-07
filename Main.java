@@ -18,7 +18,6 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main extends Application {
-
 	private static int currentSectionIndex = 0;
 	private static String[] sections;
 
@@ -379,5 +378,4 @@ public class Main extends Application {
 			text2.appendText("No Sections Found In File\n");
 		}
 	}
-
 }
