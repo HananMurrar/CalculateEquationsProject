@@ -1,7 +1,6 @@
 package application;
 
 public class CursorArrayStack<T extends Comparable<T>> {
-
 	CursorArray<T> x;
 	int list;
 
@@ -30,5 +29,4 @@ public class CursorArrayStack<T extends Comparable<T>> {
 	public void clear() {
 		x.clear(list);
 	}
-
 }
